@@ -52,5 +52,13 @@ a{
   transition: all 0.3s ease;
 }
 p{
-  
+color: white;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
 }

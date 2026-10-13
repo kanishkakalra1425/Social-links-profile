@@ -59,12 +59,16 @@ h1 {
     color: white;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 h2{
  color:#c2fa56;
    font-family: 'Inter', sans-serif;
     font-weight: 600;
+    font-size: 14px;
+    margin-top: 12px;
 }
 a{
   width: 100%;
@@ -83,6 +87,7 @@ p{
 color: white;
   font-family: 'Inter', sans-serif;
     font-weight: 400;
+    margin-block:12px;
 }
 
 .profiles {
@@ -91,4 +96,9 @@ color: white;
     align-items: center;
     flex-direction: column;
     width: 100%;
+}
+
+a:hover{
+  color: black;
+  background-color: #c2fa56;
 }

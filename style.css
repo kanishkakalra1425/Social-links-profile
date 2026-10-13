@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:black;
+}
+.card-block{
+  width: 100%;
+  max-width: 384px;
+  background-color: #1f1f1f;
+  padding: 40px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
